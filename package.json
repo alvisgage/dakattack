@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --baseHref=https://alvisgage.github.io/dakattack",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "npx angular-cli-ghpages --dir=dist/dakattack/"
   },
   "private": true,
   "dependencies": {
