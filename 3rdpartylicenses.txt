@@ -13,6 +13,9 @@ MIT
 @angular/router
 MIT
 
+primeflex
+MIT
+
 primeicons
 MIT
 MIT License
